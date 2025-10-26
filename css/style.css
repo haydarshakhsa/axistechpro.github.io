@@ -19,6 +19,9 @@ button a:visited {
   color: inherit !important;
 }
 
+.hero {
+  height: 100vh;
+}
 
 
 
