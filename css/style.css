@@ -231,6 +231,15 @@ body{
     padding: 0 1rem;
     position: relative;
     overflow: hidden !important;
+
+  /* Key properties for responsiveness */
+  background-size: cover;      
+  background-repeat: no-repeat;  
+  background-position: center center; 
+  
+  /* Crucial: The element needs a defined height to display the image */
+  height: 100vh; 
+  width: 100%;
 }
 
 .home h1{
