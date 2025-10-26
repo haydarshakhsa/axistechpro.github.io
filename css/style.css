@@ -37,17 +37,16 @@ a:hover, button a:hover {
     text-decoration: none;
 }
 
-html{
+html ,body{
     font-size: 62.5%;
 height: 100%; 
-}
 
-body{
+
 
 	
     margin: 0; /* Removes default external space */
     padding: 0; /* Removes default internal space */
-}
+
 
 
     overflow-x: hidden;
