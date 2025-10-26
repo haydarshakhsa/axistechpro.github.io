@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 /* Remove underline from all link buttons & footer icons */
 
+.hero-section {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
 
 a,
 a:visited,
