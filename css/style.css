@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 /* Remove underline from all link buttons & footer icons */
 
-.hero-section {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-width:100vh;
-height:100vh;
-}
 
 a,
 a:visited,
@@ -43,18 +37,12 @@ a:hover, button a:hover {
     text-decoration: none;
 }
 
-html ,body{
+html{
     font-size: 62.5%;
-height: 100%; 
+}
 
-
-
+body{
 	
-    margin: 0; /* Removes default external space */
-    padding: 0; /* Removes default internal space */
-
-
-
     overflow-x: hidden;
 }
 
@@ -243,15 +231,6 @@ height: 100%;
     padding: 0 1rem;
     position: relative;
     overflow: hidden !important;
-
-  /* Key properties for responsiveness */
-  background-size: cover;      
-  background-repeat: no-repeat;  
-  background-position: center center; 
-  
-  /* Crucial: The element needs a defined height to display the image */
-  height: 100vh; 
-  width: 100%;
 }
 
 .home h1{
