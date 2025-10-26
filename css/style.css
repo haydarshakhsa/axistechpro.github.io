@@ -412,6 +412,7 @@ body{
     background-repeat: no-repeat;
 	color: #fff;
 	padding: 40px 20px;
+
 }
 
 .counters .container {
@@ -419,6 +420,7 @@ body{
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 30px;
 	text-align: center;
+     flex-wrap: wrap; /* ✅ allows stacking on mobile */
 }
 .sky-rectangle {
       width: 300px;              /* you can change the size */
@@ -431,6 +433,7 @@ body{
       color: #003366;            /* text color for contrast */
       font-weight: bold;
       box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* optional shadow */
+        flex: 1 1 300px; /* ✅ makes each box flexible */
     }
 	
 .image-rectangle {
