@@ -20,9 +20,12 @@ button a:visited {
 }
 
 .hero {
-  height: 100vh;
+  min-height: 100dvh; /* dynamic viewport height */
+  padding: 100px 20px; /* ensures proper spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 
 
 /* Optional: make hover show pointer */
