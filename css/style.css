@@ -4,6 +4,8 @@
 .hero-section {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+width:100vh;
+height:100vh;
 }
 
 a,
